@@ -1,0 +1,21 @@
+$kind: http-request
+name: creación nueva categoria
+description: ""
+url: http://localhost:3000/api/productos
+method: POST
+body:
+  type: json
+  content: "  {\r
+
+    \  \"nombre\": \"Auriculares Bluetooth\",\r
+
+    \    \"descripcion\": \"Con luces RGB\",\r
+
+    \    \"precio\": 32000,\r
+
+    \    \"cantidad\": 7,\r
+
+    \    \"categoria\": \"Periféricos\"\r
+
+    \  }"
+order: 4502299128432590

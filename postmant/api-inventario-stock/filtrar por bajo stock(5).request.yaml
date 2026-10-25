@@ -1,0 +1,6 @@
+$kind: http-request
+name: filtrar por bajo stock(5)
+description: ""
+url: http://localhost:3000/api/productos/bajo-stock/5
+method: GET
+order: 4503520448835004

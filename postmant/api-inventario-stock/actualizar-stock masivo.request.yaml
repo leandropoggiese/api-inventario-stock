@@ -1,0 +1,21 @@
+$kind: http-request
+name: actualizar-stock masivo
+description: ""
+url: http://localhost:3000/api/productos/actualizar-stock
+method: PUT
+body:
+  type: json
+  content: "{\"productos\":\r
+
+    [\r
+
+    {\"id\": \"6a6e5097c5d42b6b1e71f6c2\", \"cantidad\":10},\r
+
+    {\"id\": \"6a6e4b0ec5d42b6b1e71f6c0\", \"cantidad\": 20},\r
+
+    {\"id\": \"6a6e51dac5d42b6b1e71f6c4\", \"cantidad\": 6}\r
+
+    ]\r
+
+    }"
+order: 4503539045467128

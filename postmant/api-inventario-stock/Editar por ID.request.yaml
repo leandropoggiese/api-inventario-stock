@@ -1,0 +1,13 @@
+$kind: http-request
+name: Editar por ID
+description: ""
+url: http://localhost:3000/api/productos/6a6e4b0ec5d42b6b1e71f6c0
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"categoria\": \"Periféricos\"\r
+
+    }"
+order: 4450393183590468

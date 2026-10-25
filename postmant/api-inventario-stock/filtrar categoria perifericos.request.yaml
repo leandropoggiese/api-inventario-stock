@@ -1,0 +1,6 @@
+$kind: http-request
+name: filtrar categoria perifericos
+description: ""
+url: http://localhost:3000/api/productos/categoria/Periféricos
+method: GET
+order: 4503499812027988

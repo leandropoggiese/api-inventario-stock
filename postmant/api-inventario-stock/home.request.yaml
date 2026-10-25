@@ -1,0 +1,6 @@
+$kind: http-request
+name: home
+description: ""
+url: http://localhost:3000/
+method: GET
+order: 1785612727856

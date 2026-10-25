@@ -1,0 +1,21 @@
+$kind: http-request
+name: creacion categoria libreria
+description: ""
+url: http://localhost:3000/api/productos
+method: POST
+body:
+  type: json
+  content: "  {\r
+
+    \  \"nombre\":\"Cuaderno anillado A4\",\r
+
+    \    \"descripcion\": \"Tapa dura\",\r
+
+    \    \"precio\": 4000,\r
+
+    \    \"cantidad\": 12,\r
+
+    \    \"categoria\": \"Librería\"\r
+
+    \  }"
+order: 4502943481189769
